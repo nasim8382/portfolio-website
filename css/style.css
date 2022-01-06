@@ -8,11 +8,8 @@ body{
     display: flex;
     margin: 5% 20% 5% 10%;
 }
-.width-sixty{
-    width: 60%;
-}
-.width-fourty{
-    width: 40%;
+.half-width{
+    width: 50%;
 }
 .heading{
     border-left: 5px solid tomato;
@@ -115,6 +112,30 @@ a{
     padding-bottom: 3%;
 }
 /*Develop skills section end*/
+
+/*Community section start*/
+#community-section{
+    display: flex;
+    align-items: center;
+    margin: 5% 15% 5% 10%;
+    background: url('../images/bg1.png');
+    background-repeat: no-repeat;
+    background-position: -50% -50%;
+}
+#community-section img{
+    width: 100%;
+    border-radius: 30px;
+}
+.community-text{
+    margin-right: 10%;
+}
+.community-text h1{
+    font-size: 40px;
+}
+.community-text p{
+    padding-bottom: 3%;
+}
+/*Community section end*/
 
 /*Team section start*/
 #team-section{
