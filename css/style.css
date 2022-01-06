@@ -17,7 +17,7 @@ body{
 .heading h1{
     font-size: 55px;
     padding-left: 20px;
-    padding-right: 250px;
+    padding-right: 200px;
     font-family: cursive;
 }
 .heading h1 span{
@@ -32,7 +32,7 @@ a{
 }
 #banner-section p{
     text-align: justify;
-    padding-right: 200px;
+    padding-right: 100px;
     padding-bottom: 15px;
 }
 #banner-section h4{   
@@ -40,6 +40,7 @@ a{
 }
 #banner-section img{
     border-radius: 100px 200px 500px 200px;
+    margin-left: 20%;
 }
 /*Banner section end*/
 
