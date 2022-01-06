@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
 /*banner section start*/
 #banner-section{
     display: flex;
@@ -17,7 +18,7 @@ body{
     border-left: 5px solid tomato;
 }
 .heading h1{
-    font-size: 50px;
+    font-size: 55px;
     padding-left: 20px;
     padding-right: 250px;
     font-family: cursive;
@@ -35,9 +36,9 @@ a{
 #banner-section p{
     text-align: justify;
     padding-right: 200px;
+    padding-bottom: 15px;
 }
-#banner-section h4{
-    padding-top: 20px;
+#banner-section h4{   
     font-weight: 400;
 }
 #banner-section img{
@@ -94,9 +95,26 @@ a{
 }
 /*Mission section end*/
 
+/*Develop skiils section start*/
 #develop-section{
-    
+    display: flex;
+    align-items: center;
+    margin: 5% 15% 5% 10%;
 }
+#develop-section img{
+    width: 100%;
+    border-radius: 30px;
+}
+.develop-skills-text{
+    margin-left: 10%;
+}
+.develop-skills-text h1{
+    font-size: 40px;
+}
+.develop-skills-text p{
+    padding-bottom: 3%;
+}
+/*Develop skills section end*/
 
 /*Team section start*/
 #team-section{
