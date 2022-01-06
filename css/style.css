@@ -2,14 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.half-width{
+    width: 50%;
+}
+.width-third{
+    width: 30%;
+    margin-right: 3%;
+}
 
 /*banner section start*/
 #banner-section{
     display: flex;
-    margin: 5% 20% 5% 10%;
-}
-.half-width{
-    width: 50%;
+    margin: 4% 20% 5% 10%;
 }
 .heading{
     border-left: 5px solid tomato;
@@ -41,6 +45,7 @@ a{
 #banner-section img{
     border-radius: 100px 200px 500px 200px;
     margin-left: 20%;
+    padding-top: 5%;
 }
 /*Banner section end*/
 
@@ -58,10 +63,6 @@ a{
 }
 .mission-area{
     display: flex;
-}
-.width-third{
-    width: 30%;
-    margin-right: 3%;
 }
 .mission-area img{
     height: 200px;
@@ -97,11 +98,15 @@ a{
 #develop-section{
     display: flex;
     align-items: center;
-    margin: 5% 15% 5% 10%;
+    margin: 5% 15% 5% 6%;
+    background-image: url('..//images/bg2.png');
+    background-repeat: no-repeat;
+    background-position: left;
 }
 #develop-section img{
     width: 100%;
     border-radius: 30px;
+    margin-left: 11%;
 }
 .develop-skills-text{
     margin-left: 10%;
@@ -118,17 +123,20 @@ a{
 #community-section{
     display: flex;
     align-items: center;
-    margin: 5% 15% 5% 10%;
-    background: url('../images/bg1.png');
+    padding: 5% 6% 5% 10%;
+    background: url('../images/bg2.png');
     background-repeat: no-repeat;
-    background-position: -50% -50%;
+    background-position: right;
+    background-position-x: 91%;
+    background-position-y: 435px;
 }
 #community-section img{
     width: 100%;
     border-radius: 30px;
+    margin-left: -20%;
 }
 .community-text{
-    margin-right: 10%;
+    padding-right: 15%;
 }
 .community-text h1{
     font-size: 40px;
