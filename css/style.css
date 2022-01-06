@@ -2,6 +2,49 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/*banner section start*/
+#banner-section{
+    display: flex;
+    margin: 5% 20% 5% 10%;
+}
+.width-sixty{
+    width: 60%;
+}
+.width-fourty{
+    width: 40%;
+}
+.heading{
+    border-left: 5px solid tomato;
+}
+.heading h1{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 250px;
+    font-family: cursive;
+}
+.heading h1 span{
+    color: darkorange;
+}
+a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px 40px;
+}
+#banner-section p{
+    text-align: justify;
+    padding-right: 200px;
+}
+#banner-section h4{
+    padding-top: 20px;
+    font-weight: 400;
+}
+#banner-section img{
+    border-radius: 100px 200px 500px 200px;
+}
+/*Banner section end*/
+
 /*Mission section start*/
 #mission-section{
     margin: 5% 10% 5% 10%;
@@ -50,6 +93,10 @@ body{
     text-align: justify;
 }
 /*Mission section end*/
+
+#develop-section{
+    
+}
 
 /*Team section start*/
 #team-section{
